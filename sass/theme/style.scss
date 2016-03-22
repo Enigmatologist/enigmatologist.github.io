@@ -1,3 +1,128 @@
 @import "modules/mixins";
 @import "vendor/grids";
 @import "vendor/normalize";
+
+* {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+/* Standard Styles */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  max-width: 485px;
+  text-align: center;
+  letter-spacing: .02em;
+  line-height: 1.4285;
+  margin: 0 auto;
+}
+
+/* GENERAL MEDIA QUERY - MAX WIDTH */
+.wrapper {
+  padding: 20px;
+
+  @media (min-width: 750px) {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/* HEADER */
+
+.home {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-image: url("../../images/banner-background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 320px;
+}
+
+.main_nav {
+  padding-top: 20px;
+}
+
+.logo_image {
+  display:block;
+  margin: 0 auto;
+}
+
+.logo .text-right {
+  display: block;
+  padding-top: 20px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* BANNER CONTENT */
+
+.hero {
+  padding-top: 15px;
+}
+
+.name_title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.social_buttons {
+  display: block;
+  text-align: center;
+}
+
+.social_list li {
+  display: inline-block;
+}
+
+.social_image_linkedin {
+  width: 22px;
+  height: 20px;
+  margin-right: 35px;
+  margin-left: -40px;
+}
+
+.social_image_dribbble {
+  width: 20px;
+  height: 20px;
+  margin-right: 35px;
+}
+
+.social_image_twitter {
+  width: 24px;
+  height: 20px;
+  margin-right: 35px;
+}
+
+.social_image_github {
+  width: 20.43px;
+  height: 20px;
+  margin-right: 35px;
+}
+
+.social_image_email {
+  width: 22.5px;
+  height: 18px;
+}
+
+
+
+
