@@ -32,6 +32,34 @@ p {
   margin: 0 auto;
 }
 
+.title {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.project_type {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -15px; 
+}
+
+.project_image_preview {
+  padding-top: 10px;
+  padding-bottom: 42px;
+} 
+
+.btn {
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.15px;
+text-align:center;
+text-decoration: none;
+padding: 15px 40px;
+}
+
 /* GENERAL MEDIA QUERY - MAX WIDTH */
 .wrapper {
   padding: 20px;
@@ -78,7 +106,7 @@ p {
 }
 
 .name_title {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
   color: #FFFFFF;
   text-decoration: none;
@@ -122,6 +150,68 @@ p {
   width: 22.5px;
   height: 18px;
 }
+
+/* PROJECT - FRESH CHEF */
+
+.fresh_chef {
+  display: block;
+  background: #4A6D87;
+  background-size:cover;
+  min-height: 525px;
+  text-align: center;
+}
+
+.chef_preview_image {
+  width: 121px;
+  height: 250px;
+}
+
+/* PROJECT - JUMPSTART */
+
+.jumpstart {
+  display: block;
+  background: #C87B53;
+  background-size: cover;
+  min-height: 485px;
+  text-align: center;
+
+  @media (min-width: 360px){
+    min-height: 525px;
+  }
+}
+
+.jumpstart_preview_image {
+  width: 100%;
+
+  @media (min-width: 370px){
+    width: 330px;
+    height: 250px;
+  }
+}
+
+/* PROJECT - PRODUCT SHOWCASE */
+
+.product-showcase {
+  display: block;
+  background: #96A17E;
+  background-size: cover;
+  min-height: 497px;
+  text-align: center;
+
+  @media (min-width: 360px){
+    min-height: 525px;
+  }
+}
+
+.showcase_preview_image {
+  width: 100%;
+
+  @media (min-width: 370px) {
+    width: 312px;
+    height: 250px;
+  }
+}
+
 
 
 
