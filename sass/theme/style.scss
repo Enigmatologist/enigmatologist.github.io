@@ -218,6 +218,7 @@ padding: 15px 40px;
   display: block;
   min-height: 580px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .about_title {
@@ -227,7 +228,7 @@ padding: 15px 40px;
 }
 
 .face {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .head_image {
@@ -253,8 +254,29 @@ padding: 15px 40px;
 
 /* FOOTER */
 
+.footer-nav-block {
+  display: block;
+  text-align: center;
+  background: #0D2C4E;
+}
 
+.footer-nav-block .link-list {
+  line-height: 20px;
+}
 
+.foot_btn {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-nav-block .link-list li {
+  font-size: 13px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  margin-left: -40px;
+  line-height: 40px;
+}
 
 
 
