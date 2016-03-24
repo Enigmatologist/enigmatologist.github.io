@@ -35,12 +35,33 @@ p {
 .title {
   font-size: 29px;
   font-weight: 700;
+
+  @media (min-width: 411px){
+    font-size: 32px;
+  }
+
+  @media (min-width: 750px){
+    margin-top: 0;
+
+  }
+
+  @media (min-width: 768px){
+    font-size: 36px;
+  }
 }
 
 .project_type {
   font-size: 18px;
   font-weight: 400;
   margin-top: -15px; 
+
+  @media (min-width: 411px){
+    font-size: 20px;
+  }
+
+  @media (min-width: 768px){
+    font-size: 24px;
+  }
 }
 
 .project_image_preview {
@@ -65,31 +86,59 @@ padding: 15px 40px;
   padding: 20px;
 
   @media (min-width: 750px) {
-    max-width: 1000px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0;
+  }
+
+  @media (min-width: 800px) {
+    max-width: 730px;
+  }
+
+  @media (min-width: 900px) {
+    max-width: 800px;
+  }
+
+  @media (min-width: 1000px) {
+    max-width: 900px;
+  }
+
+  @media (min-width: 1100px) {
+    max-width: 1000px;
   }
 }
 
 /* HEADER */
 
 .home {
-  text-align: center;
   display: block;
   width: 100%;
   background-image: url("../../images/banner-background.jpg");
   background-size: cover;
   background-position: center;
   min-height: 320px;
+
+  @media (min-width: 750px){
+    padding: 20px 0;
+  }
 }
 
 .main_nav {
   padding-top: 20px;
+  text-align: center;
+
+  @media (min-width: 750px){
+    text-align: left;
+  }
 }
 
 .logo_image {
   display:block;
   margin: 0 auto;
+
+  @media (min-width: 750px){
+    display: inline;
+  }
 }
 
 .logo .text-right {
@@ -97,12 +146,24 @@ padding: 15px 40px;
   padding-top: 20px;
   font-size: 13px;
   opacity: 0.8;
+
+  @media (min-width: 750px){
+    display: inline;
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 30px;
+  }
 }
 
 /* BANNER CONTENT */
 
 .hero {
   padding-top: 15px;
+  text-align: center;
+
+  @media (min-width:750px){
+    padding-top: 25px;
+  }
 }
 
 .name_title {
@@ -110,6 +171,22 @@ padding: 15px 40px;
   font-weight: 700;
   color: #FFFFFF;
   text-decoration: none;
+
+  @media (min-width: 375px){
+    font-size: 42px;
+  }
+
+  @media (min-width: 435px){
+    font-size: 46px;
+  }
+
+  @media (min-width: 600px){
+    font-size: 50px;
+  }
+}
+
+.name_title:hover {
+  opacity: 0.8;
 }
 
 .social_buttons {
@@ -159,11 +236,27 @@ padding: 15px 40px;
   background-size:cover;
   min-height: 525px;
   text-align: center;
+
+  @media (min-width: 410px){
+    min-height: 535px;
+  }
+
+  @media (min-width: 750px){
+    padding-top: 44px;
+  }
+
+  @media (min-width: 768px){
+    padding-bottom: 74px;
+  }
 }
 
 .chef_preview_image {
   width: 121px;
   height: 250px;
+}
+
+.fresh_chef .btn:hover {
+  background: #6690B8;
 }
 
 /* PROJECT - JUMPSTART */
@@ -178,6 +271,18 @@ padding: 15px 40px;
   @media (min-width: 360px){
     min-height: 525px;
   }
+
+  @media (min-width: 410px){
+    min-height: 535px;
+  }
+
+  @media (min-width: 750px){
+    padding-top: 44px;
+  }
+
+  @media (min-width: 768px){
+    padding-bottom: 74px;
+  }
 }
 
 .jumpstart_preview_image {
@@ -187,6 +292,10 @@ padding: 15px 40px;
     width: 330px;
     height: 250px;
   }
+}
+
+.jumpstart .btn:hover {
+  background: #E18454;
 }
 
 /* PROJECT - PRODUCT SHOWCASE */
@@ -201,6 +310,18 @@ padding: 15px 40px;
   @media (min-width: 360px){
     min-height: 525px;
   }
+
+  @media (min-width: 410px){
+    min-height: 535px;
+  }
+
+  @media (min-width: 750px){
+    padding-top: 44px;
+  }
+
+  @media (min-width: 768px){
+    padding-bottom: 74px;
+  }
 }
 
 .showcase_preview_image {
@@ -212,6 +333,10 @@ padding: 15px 40px;
   }
 }
 
+.product-showcase .btn:hover {
+  background: #AAB88B;
+}
+
 /* ABOUT ME - SECTION */
 
 .who_am_i {
@@ -219,12 +344,25 @@ padding: 15px 40px;
   min-height: 580px;
   text-align: center;
   padding-bottom: 20px;
+
+  @media (min-width: 750px){
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }  
 }
 
 .about_title {
   font-size: 29px;
   font-weight: 700;
   color: #000000;
+
+  @media (min-width: 750px){
+    margin-top: 0;
+  }
+
+  @media (min-width: 768px){
+    font-size: 36px;
+  }
 }
 
 .face {
@@ -252,16 +390,38 @@ padding: 15px 40px;
   margin-top: 20px;
 }
 
+.textlink {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.textlink:hover {
+  text-decoration: underline;
+}
+
 /* FOOTER */
 
 .footer-nav-block {
   display: block;
   text-align: center;
   background: #0D2C4E;
+
+  @media (min-width: 750px){
+    padding: 30px 0;
+  }
 }
 
 .footer-nav-block .link-list {
   line-height: 20px;
+
+  @media (min-width: 600px){
+    margin-left: -45px;
+  }
+
+  @media (min-width: 750px){
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 .foot_btn {
@@ -276,9 +436,16 @@ padding: 15px 40px;
   display: block;
   margin-left: -40px;
   line-height: 40px;
+
+  @media (min-width: 600px){
+    display: inline;
+    margin: 0 10px;
+  }
 }
 
-
+.link-list li:hover > a {
+  opacity: 0.8;
+}
 
 
 
