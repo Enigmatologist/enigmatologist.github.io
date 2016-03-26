@@ -2043,23 +2043,30 @@ html, body {
 
 body {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  color: #FFFFFF; }
+  /*color: #FFFFFF;*/ }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-align: center; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 p {
+  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
   font-size: 16px;
-  max-width: 485px;
-  text-align: center;
-  letter-spacing: .02em;
-  line-height: 1.4285;
+  max-width: 657px;
+  text-align: left;
+  letter-spacing: 0.17px;
+  line-height: 30px;
   margin: 0 auto; }
 
 .title {
   font-size: 29px;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 25px; }
   @media (min-width: 411px) {
     .title {
       font-size: 32px; } }
@@ -2073,7 +2080,9 @@ p {
 .project_type {
   font-size: 18px;
   font-weight: 400;
-  margin-top: -15px; }
+  margin-top: -15px;
+  margin-bottom: 15px;
+  color: #FFFFFF; }
   @media (min-width: 411px) {
     .project_type {
       font-size: 20px; } }
@@ -2147,6 +2156,7 @@ p {
   display: block;
   padding-top: 20px;
   font-size: 13px;
+  color: #FFFFFF;
   opacity: 0.8; }
   @media (min-width: 750px) {
     .logo .text-right {
@@ -2243,7 +2253,8 @@ p {
   background: #C87B53;
   background-size: cover;
   min-height: 485px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 40px; }
   @media (min-width: 360px) {
     .jumpstart {
       min-height: 525px; } }
@@ -2273,7 +2284,8 @@ p {
   background: #96A17E;
   background-size: cover;
   min-height: 497px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 40px; }
   @media (min-width: 360px) {
     .product-showcase {
       min-height: 525px; } }
@@ -2329,20 +2341,25 @@ p {
 .intro {
   font-size: 20px;
   font-weight: 700;
-  color: #000000; }
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  color: #000000;
+  text-align: center; }
 
 .intro_text {
   font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
   font-weight: normal;
   color: #000000;
   font-size: 16px;
+  text-align: center;
   letter-spacing: 0.17px;
   line-height: 30px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  max-width: 485px; }
 
 .textlink {
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #0031FF; }
 
 .textlink:hover {
   text-decoration: underline; }
@@ -2386,5 +2403,24 @@ p {
   opacity: 0.8; }
 
 /* =========== CASE STUDY - Fresh Chef ============ */
+/* STANDARD STYLES - Fresh Chef */
+.project_header, .project_footer {
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-image: url("../../images/images-fresh_chef/header_footer_background2x.png");
+  background-size: cover;
+  background-position: center; }
+
+.project_title h2 {
+  font-weight: 700;
+  font-size: 40px; }
+
+/* GENERAL MEDIA QUERY - MAX WIDTH */
+.wrapper1 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 657px;
+  padding: 0 20px; }
 
 /*# sourceMappingURL=style.css.map */
