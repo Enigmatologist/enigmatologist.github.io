@@ -1,4 +1,177 @@
 @charset "UTF-8";
+/* GENERAL MEDIA QUERY - MAX WIDTH */
+/* ====== HOME PAGE ====== */
+.wrapper {
+  padding: 20px; }
+  @media (min-width: 750px) {
+    .wrapper {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0; } }
+  @media (min-width: 800px) {
+    .wrapper {
+      max-width: 730px; } }
+  @media (min-width: 900px) {
+    .wrapper {
+      max-width: 800px; } }
+  @media (min-width: 1000px) {
+    .wrapper {
+      max-width: 900px; } }
+  @media (min-width: 1100px) {
+    .wrapper {
+      max-width: 1000px; } }
+
+/* ====== FRESH CHEF - PAGE ====== */
+.wrapper1 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px; }
+
+/* HEADER & FOOTER STYLES */
+/* ======= HOME PAGE - FOOTER ======= */
+.footer-nav-block {
+  display: block;
+  text-align: center;
+  background: #0D2C4E; }
+  @media (min-width: 750px) {
+    .footer-nav-block {
+      padding: 30px 0; } }
+
+.footer-nav-block .link-list {
+  line-height: 20px; }
+  @media (min-width: 600px) {
+    .footer-nav-block .link-list {
+      margin-left: -45px; } }
+  @media (min-width: 750px) {
+    .footer-nav-block .link-list {
+      margin-top: 0;
+      margin-bottom: 0; } }
+
+.foot_btn {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.footer-nav-block .link-list li {
+  font-size: 13px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  margin-left: -40px;
+  line-height: 40px; }
+  @media (min-width: 600px) {
+    .footer-nav-block .link-list li {
+      display: inline;
+      margin: 0 10px; } }
+
+.link-list li:hover > a {
+  opacity: 0.8; }
+
+/* ====== FRESH CHEF - HEADER & FOOTER ====== */
+/* HEADER */
+.project_header, .project_footer {
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-image: url("../../images/images-fresh_chef/header_footer_background2x.png");
+  background-size: cover;
+  background-position: center; }
+
+.project_header a, .project_footer a {
+  display: inline-block; }
+
+/* Global Standard Styles */
+html, body {
+  overflow-x: hidden; }
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /*color: #FFFFFF;*/ }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-align: left; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+p, .issues {
+  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
+  font-size: 17px;
+  text-align: left;
+  letter-spacing: 0.17px;
+  line-height: 32px;
+  margin: 0 auto; }
+
+/* =========== HOME PAGE ============ */
+.my_name, .title, .project_type, .about_title {
+  text-align: center; }
+
+.title {
+  font-size: 29px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 25px; }
+  @media (min-width: 411px) {
+    .title {
+      font-size: 32px; } }
+  @media (min-width: 750px) {
+    .title {
+      margin-top: 0; } }
+  @media (min-width: 768px) {
+    .title {
+      font-size: 36px; } }
+
+.project_type {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  color: #FFFFFF; }
+  @media (min-width: 411px) {
+    .project_type {
+      font-size: 20px; } }
+  @media (min-width: 768px) {
+    .project_type {
+      font-size: 24px; } }
+
+.project_image_preview {
+  padding-top: 10px;
+  padding-bottom: 42px; }
+
+.btn {
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 40px; }
+
+/* =========== CASE STUDY - Fresh Chef ============ */
+.project_title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center; }
+
+.block_header {
+  font-weight: 700;
+  font-size: 32px; }
+
+.subtitle {
+  font-weight: 700;
+  font-size: 24px; }
+
+.wireframe_link, .prototype_link {
+  text-align: center; }
+
+.wireframe_link a, .prototype_link a {
+  font-size: 19px;
+  color: #3292B5; }
+
 /*------------------------------------*\
     This file has been modified by me, Helen Tran, to suit my needs. The biggest and most important change being the adjustment of Harry Roberts' inline-block technique to use floats instead.
     Probably best to grab the real thing: http://csswizardry.com/csswizardry-grids/
@@ -2037,95 +2210,7 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* Standard Styles */
-html, body {
-  overflow-x: hidden; }
-
-body {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  /*color: #FFFFFF;*/ }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  text-align: center; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
-
-p {
-  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
-  font-size: 16px;
-  max-width: 657px;
-  text-align: left;
-  letter-spacing: 0.17px;
-  line-height: 30px;
-  margin: 0 auto; }
-
-.title {
-  font-size: 29px;
-  font-weight: 700;
-  color: #FFFFFF;
-  margin-bottom: 25px; }
-  @media (min-width: 411px) {
-    .title {
-      font-size: 32px; } }
-  @media (min-width: 750px) {
-    .title {
-      margin-top: 0; } }
-  @media (min-width: 768px) {
-    .title {
-      font-size: 36px; } }
-
-.project_type {
-  font-size: 18px;
-  font-weight: 400;
-  margin-top: -15px;
-  margin-bottom: 15px;
-  color: #FFFFFF; }
-  @media (min-width: 411px) {
-    .project_type {
-      font-size: 20px; } }
-  @media (min-width: 768px) {
-    .project_type {
-      font-size: 24px; } }
-
-.project_image_preview {
-  padding-top: 10px;
-  padding-bottom: 42px; }
-
-.btn {
-  border: 1px solid #FFFFFF;
-  border-radius: 100px;
-  font-weight: 400;
-  font-size: 14px;
-  color: #FFFFFF;
-  letter-spacing: 0.15px;
-  text-align: center;
-  text-decoration: none;
-  padding: 15px 40px; }
-
-/* GENERAL MEDIA QUERY - MAX WIDTH */
-.wrapper {
-  padding: 20px; }
-  @media (min-width: 750px) {
-    .wrapper {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 0; } }
-  @media (min-width: 800px) {
-    .wrapper {
-      max-width: 730px; } }
-  @media (min-width: 900px) {
-    .wrapper {
-      max-width: 800px; } }
-  @media (min-width: 1000px) {
-    .wrapper {
-      max-width: 900px; } }
-  @media (min-width: 1100px) {
-    .wrapper {
-      max-width: 1000px; } }
-
+/* ======== HOME PAGE ========= */
 /* HEADER */
 .home {
   display: block;
@@ -2363,64 +2448,5 @@ p {
 
 .textlink:hover {
   text-decoration: underline; }
-
-/* FOOTER */
-.footer-nav-block {
-  display: block;
-  text-align: center;
-  background: #0D2C4E; }
-  @media (min-width: 750px) {
-    .footer-nav-block {
-      padding: 30px 0; } }
-
-.footer-nav-block .link-list {
-  line-height: 20px; }
-  @media (min-width: 600px) {
-    .footer-nav-block .link-list {
-      margin-left: -45px; } }
-  @media (min-width: 750px) {
-    .footer-nav-block .link-list {
-      margin-top: 0;
-      margin-bottom: 0; } }
-
-.foot_btn {
-  text-decoration: none;
-  color: #FFFFFF; }
-
-.footer-nav-block .link-list li {
-  font-size: 13px;
-  color: #FFFFFF;
-  text-decoration: none;
-  display: block;
-  margin-left: -40px;
-  line-height: 40px; }
-  @media (min-width: 600px) {
-    .footer-nav-block .link-list li {
-      display: inline;
-      margin: 0 10px; } }
-
-.link-list li:hover > a {
-  opacity: 0.8; }
-
-/* =========== CASE STUDY - Fresh Chef ============ */
-/* STANDARD STYLES - Fresh Chef */
-.project_header, .project_footer {
-  font-weight: 700;
-  font-size: 14px;
-  color: #FFFFFF;
-  background-image: url("../../images/images-fresh_chef/header_footer_background2x.png");
-  background-size: cover;
-  background-position: center; }
-
-.project_title h2 {
-  font-weight: 700;
-  font-size: 40px; }
-
-/* GENERAL MEDIA QUERY - MAX WIDTH */
-.wrapper1 {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 657px;
-  padding: 0 20px; }
 
 /*# sourceMappingURL=style.css.map */

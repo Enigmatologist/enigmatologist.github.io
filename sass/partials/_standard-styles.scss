@@ -1,0 +1,116 @@
+/* Global Standard Styles */
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /*color: #FFFFFF;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p, .issues {
+  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
+  font-size: 17px;
+  text-align: left;
+  letter-spacing: 0.17px;
+  line-height: 32px;
+  margin: 0 auto;
+}
+
+/* =========== HOME PAGE ============ */
+
+.my_name, .title, .project_type, .about_title {
+  text-align: center;
+}
+
+.title {
+  font-size: 29px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+
+  @media (min-width: 411px){
+    font-size: 32px;
+  }
+
+  @media (min-width: 750px){
+    margin-top: 0;
+
+  }
+
+  @media (min-width: 768px){
+    font-size: 36px;
+  }
+}
+
+.project_type {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 15px; 
+  color: #FFFFFF;
+
+  @media (min-width: 411px){
+    font-size: 20px;
+  }
+
+  @media (min-width: 768px){
+    font-size: 24px;
+  }
+}
+
+.project_image_preview {
+  padding-top: 10px;
+  padding-bottom: 42px;
+} 
+
+.btn {
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.15px;
+text-align:center;
+text-decoration: none;
+padding: 15px 40px;
+}
+
+/* =========== CASE STUDY - Fresh Chef ============ */
+
+.project_title h2{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.block_header {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.wireframe_link, .prototype_link {
+  text-align: center;
+}
+
+.wireframe_link a, .prototype_link a {
+  font-size: 19px;
+  color: #3292B5;
+}
+
