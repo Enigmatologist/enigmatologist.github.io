@@ -68,17 +68,41 @@
   opacity: 0.8; }
 
 /* ====== FRESH CHEF - HEADER & FOOTER ====== */
-/* HEADER */
+/* HEADER & FOOTER */
 .project_header, .project_footer {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   color: #FFFFFF;
   background-image: url("../../images/images-fresh_chef/header_footer_background2x.png");
   background-size: cover;
   background-position: center; }
 
-.project_header a, .project_footer a {
-  display: inline-block; }
+.container {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.text_center {
+  text-align: center; }
+
+.text_center a:hover {
+  opacity: 0.85; }
+
+.text_right {
+  text-align: right; }
+
+.previous, .next {
+  font-weight: 400;
+  opacity: 0.85; }
+
+.previous:hover, .next:hover {
+  opacity: 1;
+  text-decoration: underline; }
+
+/* FOOTER */
+.text_center span {
+  font-weight: 400;
+  opacity: 0.85; }
 
 /* Global Standard Styles */
 html, body {
