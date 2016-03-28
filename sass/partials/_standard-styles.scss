@@ -93,7 +93,7 @@ padding: 15px 40px;
   background: #F8F8F8;
 }
 
-.approach, .concept_development, .takeaways {
+.approach, .concept_development {
   padding-top: 35px;
 }
 
@@ -129,12 +129,17 @@ padding: 15px 40px;
 
 .wireframe_link, .prototype_link {
   text-align: center;
+  padding-bottom: 42px;
 }
 
 .wireframe_link a, .prototype_link a {
   font-size: 18px;
   color: #3292B5;
   font-weight: 700;
+}
+
+.persona_image, .colorpalette_image, .wireframe_image {
+  padding-bottom: 35px;
 }
 
 .persona_image img, .colorpalette_image img, .wireframe_image img {
@@ -144,6 +149,7 @@ padding: 15px 40px;
 
 .userstory_image, .userflow_image, .mindmap_image {
   text-align: center;
+  padding-bottom: 35px;
 }
 
 .userstory_image img, .userflow_image img, .mindmap_image img {
@@ -154,17 +160,6 @@ padding: 15px 40px;
   }
 }
 
-.menus_image, .orderpage_image, .mockup_image {
-  text-align: center;
-}
-
-.menus_image img, .orderpage_image img, .mockup_image img {
-  width: 100%;
-
-  @media (min-width: 600px){
-    width: 80%;
-  }
-}
 
 
 

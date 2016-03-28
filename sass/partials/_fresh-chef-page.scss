@@ -1,3 +1,18 @@
+.menus_image, .orderpage_image, .mockup_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.menus_image img, .orderpage_image img, .mockup_image img {
+  width: 100%;
+
+  @media (min-width: 600px){
+    width: 80%;
+  }
+}
+
+
+
 .takeaways {
   padding-bottom: 60px;
 }
