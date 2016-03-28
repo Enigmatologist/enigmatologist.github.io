@@ -132,7 +132,7 @@ padding: 15px 40px;
   padding-bottom: 42px;
 }
 
-.wireframe_link a, .prototype_link a {
+.fc_link {
   font-size: 18px;
   color: #3292B5;
   font-weight: 700;
@@ -160,9 +160,30 @@ padding: 15px 40px;
   }
 }
 
+.menus_image, .orderpage_image, .mockup_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
 
+.menus_image img, .orderpage_image img, .mockup_image img {
+  width: 100%;
 
+  @media (min-width: 600px){
+    width: 80%;
+  }
+}
 
+.takeaways {
+  padding-bottom: 60px;
+}
+
+/* =========== CASE STUDY - Jumpstart ============ */
+
+.js_link {
+  font-size: 18px;
+  color: #4CAF79;
+  font-weight: 700;
+}
 
 
 
