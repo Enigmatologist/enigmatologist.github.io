@@ -176,25 +176,68 @@ p, .issues {
   padding: 15px 40px; }
 
 /* =========== CASE STUDY - Fresh Chef ============ */
-.project_title h2 {
+.project_name, .project_intro, .approach, .concept_development, .takeaways {
+  background: #F8F8F8; }
+
+.approach, .concept_development, .takeaways {
+  padding-top: 35px; }
+
+.project_title, .subtitle, .block_header, .listed_items {
+  margin: 0; }
+
+.project_name {
+  padding: 60px 0; }
+
+.project_title {
   font-weight: 700;
   font-size: 40px;
   text-align: center; }
 
 .block_header {
   font-weight: 700;
-  font-size: 32px; }
+  font-size: 32px;
+  margin-bottom: 17px; }
 
 .subtitle {
   font-weight: 700;
-  font-size: 24px; }
+  font-size: 24px;
+  margin-bottom: 15px; }
+
+.subtitle_desc {
+  margin-bottom: 35px; }
 
 .wireframe_link, .prototype_link {
   text-align: center; }
 
 .wireframe_link a, .prototype_link a {
-  font-size: 19px;
-  color: #3292B5; }
+  font-size: 18px;
+  color: #3292B5;
+  font-weight: 700; }
+
+.persona_image img, .colorpalette_image img, .wireframe_image img {
+  width: 100%;
+  margin: 0 auto; }
+
+.userstory_image, .userflow_image, .mindmap_image {
+  text-align: center; }
+
+.userstory_image img, .userflow_image img, .mindmap_image img {
+  width: 100%; }
+  @media (min-width: 600px) {
+    .userstory_image img, .userflow_image img, .mindmap_image img {
+      width: 60%; } }
+
+.menus_image, .orderpage_image, .mockup_image {
+  text-align: center; }
+
+.menus_image img, .orderpage_image img, .mockup_image img {
+  width: 100%; }
+  @media (min-width: 600px) {
+    .menus_image img, .orderpage_image img, .mockup_image img {
+      width: 80%; } }
+
+.takeaways {
+  padding-bottom: 60px; }
 
 /*------------------------------------*\
     This file has been modified by me, Helen Tran, to suit my needs. The biggest and most important change being the adjustment of Harry Roberts' inline-block technique to use floats instead.
