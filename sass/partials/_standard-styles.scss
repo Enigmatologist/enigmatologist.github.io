@@ -179,13 +179,36 @@ padding: 15px 40px;
 
 /* =========== CASE STUDY - Jumpstart ============ */
 
+.j_userstory_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.j_userstory_image img {
+  width: 100%;
+}
+
 .js_link {
   font-size: 18px;
   color: #4CAF79;
   font-weight: 700;
 }
 
+.project_summary_image, .project_creation_image, .prototype_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
 
+.project_summary_image img, .project_creation_image img {
+  width: 100%;
 
+  @media (min-width: 600px){
+    width: 80%;
+  }
+}
 
+.prototype_image img {
+  width: 100%;
+}
 
+/* =========== CASE STUDY - Product Showcase ============ */
