@@ -272,6 +272,11 @@ p, .issues {
   width: 100%; }
 
 /* =========== CASE STUDY - Product Showcase ============ */
+.ps_link {
+  font-size: 18px;
+  color: #E99D41;
+  font-weight: 700; }
+
 /*------------------------------------*\
     This file has been modified by me, Helen Tran, to suit my needs. The biggest and most important change being the adjustment of Harry Roberts' inline-block technique to use floats instead.
     Probably best to grab the real thing: http://csswizardry.com/csswizardry-grids/
