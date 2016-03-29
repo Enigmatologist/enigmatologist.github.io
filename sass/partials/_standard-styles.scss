@@ -138,6 +138,10 @@ padding: 15px 40px;
   font-weight: 700;
 }
 
+.fc_link:hover {
+  color: #19BBF6;
+}
+
 .persona_image, .colorpalette_image, .wireframe_image {
   padding-bottom: 35px;
 }
@@ -194,6 +198,10 @@ padding: 15px 40px;
   font-weight: 700;
 }
 
+.js_link:hover {
+  color: #2CD77A;
+}
+
 .project_summary_image, .project_creation_image, .prototype_image {
   text-align: center;
   padding-bottom: 35px;
@@ -219,7 +227,18 @@ padding: 15px 40px;
   font-weight: 700;
 }
 
+.ps_link:hover {
+  color: #FFB400;
+}
 
+.ps_wireframe_image {
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.ps_wireframe_image img {
+  width: 60%;
+} 
 
 
 
