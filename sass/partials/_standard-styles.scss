@@ -1,0 +1,244 @@
+/* Global Standard Styles */
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /*color: #FFFFFF;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p, .issues {
+  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
+  font-size: 17px;
+  text-align: left;
+  letter-spacing: 0.17px;
+  line-height: 32px;
+  margin: 0 auto;
+}
+
+/* =========== HOME PAGE ============ */
+
+.my_name, .title, .project_type, .about_title {
+  text-align: center;
+}
+
+.title {
+  font-size: 29px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+
+  @media (min-width: 411px){
+    font-size: 32px;
+  }
+
+  @media (min-width: 750px){
+    margin-top: 0;
+
+  }
+
+  @media (min-width: 768px){
+    font-size: 36px;
+  }
+}
+
+.project_type {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 15px; 
+  color: #FFFFFF;
+
+  @media (min-width: 411px){
+    font-size: 20px;
+  }
+
+  @media (min-width: 768px){
+    font-size: 24px;
+  }
+}
+
+.project_image_preview {
+  padding-top: 10px;
+  padding-bottom: 42px;
+} 
+
+.btn {
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.15px;
+text-align:center;
+text-decoration: none;
+padding: 15px 40px;
+}
+
+/* =========== CASE STUDY - Fresh Chef ============ */
+
+.project_name, .project_intro, .approach, .concept_development, .takeaways {
+  background: #F8F8F8;
+}
+
+.approach, .concept_development {
+  padding-top: 35px;
+}
+
+.project_title, .subtitle, .block_header, .listed_items {
+  margin: 0;
+}
+
+.project_name {
+  padding: 60px 0;
+}
+
+.project_title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.block_header {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 17px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.subtitle_desc {
+  margin-bottom: 35px;
+}
+
+.wireframe_link, .prototype_link {
+  text-align: center;
+  padding-bottom: 42px;
+}
+
+.fc_link {
+  font-size: 18px;
+  color: #3292B5;
+  font-weight: 700;
+}
+
+.fc_link:hover {
+  color: #19BBF6;
+}
+
+.persona_image, .colorpalette_image, .wireframe_image {
+  padding-bottom: 35px;
+}
+
+.persona_image img, .colorpalette_image img, .wireframe_image img {
+  width: 100%;
+  margin: 0 auto;
+} 
+
+.userstory_image, .userflow_image, .mindmap_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.userstory_image img, .userflow_image img, .mindmap_image img {
+  width: 100%;
+
+  @media (min-width: 600px){
+    width: 60%;
+  }
+}
+
+.menus_image, .orderpage_image, .mockup_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.menus_image img, .orderpage_image img, .mockup_image img {
+  width: 100%;
+
+  @media (min-width: 600px){
+    width: 80%;
+  }
+}
+
+.takeaways {
+  padding-bottom: 60px;
+}
+
+/* =========== CASE STUDY - Jumpstart ============ */
+
+.j_userstory_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.j_userstory_image img {
+  width: 100%;
+}
+
+.js_link {
+  font-size: 18px;
+  color: #4CAF79;
+  font-weight: 700;
+}
+
+.js_link:hover {
+  color: #2CD77A;
+}
+
+.project_summary_image, .project_creation_image, .prototype_image {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.project_summary_image img, .project_creation_image img {
+  width: 100%;
+
+  @media (min-width: 600px){
+    width: 80%;
+  }
+}
+
+.prototype_image img {
+  width: 100%;
+}
+
+/* =========== CASE STUDY - Product Showcase ============ */
+
+.ps_link {
+  font-size: 18px;
+  color: #E99D41;
+  font-weight: 700;
+}
+
+.ps_link:hover {
+  color: #FFB400;
+}
+
+.ps_wireframe_image {
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.ps_wireframe_image img {
+  width: 60%;
+} 
+
+
+
