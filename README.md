@@ -4,11 +4,11 @@ This repository is the keeper to the source code of my design portfolio at [www.
 
 # Contact
 
-**Linkedin**: Feel free to connect with me on Linkedin
+**[Linkedin](https://www.linkedin.com/in/tobytcastro)**: Feel free to connect with me on Linkedin
 
 **Twitter**: Reach me [@TobyTCastro](https://twitter.com/tobytcastro)
 
-**Dribbble**: I am also on Dribbble
+**[Dribbble](https://dribbble.com/tobytcastro)**: I am also on Dribbble
 
 # License
 
