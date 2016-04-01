@@ -1,11 +1,11 @@
 # Toby T Castro | Portfolio
 
-This repository is the keeper to the source code of my design portfolio at (www.tobytcastro.com)
+This repository is the keeper to the source code of my design portfolio at [www.tobytcastro.com](www.tobytcastro.com)
 
 # Contact
 
 **Linkedin**: Feel free to connect with me on Linkedin
-**Twitter**: Reach me (https://twitter.com/tobytcastro "@TobyTCastro")
+**Twitter**: Reach me [@TobyTCastro](https://twitter.com/tobytcastro)
 **Dribbble**: I am also on Dribbble
 
 # License
