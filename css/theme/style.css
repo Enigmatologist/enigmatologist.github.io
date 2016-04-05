@@ -2195,11 +2195,11 @@ a {
   color: inherit; }
 
 p, .issues {
-  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
-  font-size: 17px;
+  font-family: "Neuton", Georgia, Palatino Linotype, Times New Roman, serif;
+  font-size: 19px;
   text-align: left;
-  letter-spacing: 0.17px;
-  line-height: 32px;
+  /*letter-spacing: 0.17px;*/
+  line-height: 1.6;
   margin: 0 auto; }
 
 /* =========== HOME PAGE ============ */
@@ -2280,9 +2280,14 @@ p, .issues {
 .subtitle_desc {
   margin-bottom: 35px; }
 
-.wireframe_link, .prototype_link {
+.wireframe_link {
   text-align: center;
   padding-bottom: 42px; }
+
+.prototype_link {
+  text-align: center;
+  padding-bottom: 42px;
+  padding-top: 10px; }
 
 .fc_link {
   font-size: 18px;
@@ -2405,7 +2410,7 @@ p, .issues {
       display: inline;
       position: absolute;
       padding-top: 7px;
-      padding-left: 30px; } }
+      padding-left: 15px; } }
 
 /* BANNER CONTENT */
 .hero {
@@ -2529,7 +2534,8 @@ p, .issues {
 /* PROJECT - FRESH CHEF */
 .fresh_chef {
   display: block;
-  background: #4A6D87;
+  background: #5C8AAC;
+  /* #547995 */
   background-size: cover;
   min-height: 525px;
   text-align: center; }
@@ -2548,12 +2554,13 @@ p, .issues {
   height: 250px; }
 
 .fresh_chef .btn:hover {
-  background: #6690B8; }
+  background: #6F98BF;
+  /* #6690B8 */ }
 
 /* PROJECT - JUMPSTART */
 .jumpstart {
   display: block;
-  background: #C87B53;
+  background: #DC8050;
   background-size: cover;
   min-height: 485px;
   text-align: center;
@@ -2579,12 +2586,12 @@ p, .issues {
       height: 250px; } }
 
 .jumpstart .btn:hover {
-  background: #E18454; }
+  background: #F68950; }
 
 /* PROJECT - PRODUCT SHOWCASE */
 .product-showcase {
   display: block;
-  background: #96A17E;
+  background: #A0B378;
   background-size: cover;
   min-height: 497px;
   text-align: center;
@@ -2610,7 +2617,7 @@ p, .issues {
       height: 250px; } }
 
 .product-showcase .btn:hover {
-  background: #AAB88B; }
+  background: #AFBF8B; }
 
 /* ABOUT ME - SECTION */
 .who_am_i {
@@ -2641,28 +2648,20 @@ p, .issues {
   width: 141px;
   height: 141px; }
 
-.intro {
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  color: #000000;
-  text-align: center; }
-
 .intro_text {
-  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
+  font-family: "Neuton", Georgia, Palatino Linotype, Times New Roman, serif;
   font-weight: normal;
   color: #000000;
-  font-size: 16px;
+  font-size: 19px;
   text-align: center;
-  letter-spacing: 0.17px;
-  line-height: 30px;
-  margin-top: 20px;
+  /* letter-spacing: 0.17px; */
+  line-height: 1.6;
   max-width: 485px; }
 
 .textlink {
   font-weight: bold;
   text-decoration: none;
-  color: #0031FF; }
+  color: #2A5DB0; }
 
 .textlink:hover {
   text-decoration: underline; }

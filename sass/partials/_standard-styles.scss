@@ -20,11 +20,11 @@ a {
 }
 
 p, .issues {
-  font-family: "Georgia", Palatino Linotype, Times New Roman, serif;
-  font-size: 17px;
+  font-family: "Neuton", Georgia, Palatino Linotype, Times New Roman, serif;
+  font-size: 19px;
   text-align: left;
-  letter-spacing: 0.17px;
-  line-height: 32px;
+  /*letter-spacing: 0.17px;*/
+  line-height: 1.6;
   margin: 0 auto;
 }
 
@@ -127,9 +127,15 @@ padding: 15px 40px;
   margin-bottom: 35px;
 }
 
-.wireframe_link, .prototype_link {
+.wireframe_link {
   text-align: center;
   padding-bottom: 42px;
+}
+
+.prototype_link {
+  text-align: center;
+  padding-bottom: 42px;
+  padding-top: 10px;
 }
 
 .fc_link {
