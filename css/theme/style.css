@@ -2619,6 +2619,37 @@ p, .issues {
 .product-showcase .btn:hover {
   background: #AFBF8B; }
 
+/* PROJECT - VERSTANDIG LAW FIRM */
+.verstandig-law {
+  display: block;
+  background: #C4A567;
+  background-size: cover;
+  min-height: 497px;
+  text-align: center;
+  padding-bottom: 40px; }
+  @media (min-width: 360px) {
+    .verstandig-law {
+      min-height: 525px; } }
+  @media (min-width: 410px) {
+    .verstandig-law {
+      min-height: 535px; } }
+  @media (min-width: 750px) {
+    .verstandig-law {
+      padding-top: 44px; } }
+  @media (min-width: 768px) {
+    .verstandig-law {
+      padding-bottom: 74px; } }
+
+.verstandig_law_preview_image {
+  width: 100%; }
+  @media (min-width: 370px) {
+    .verstandig_law_preview_image {
+      width: 312px;
+      height: 250px; } }
+
+.verstandig-law .btn:hover {
+  background: #A88D57; }
+
 /* ABOUT ME - SECTION */
 .who_am_i {
   display: block;
